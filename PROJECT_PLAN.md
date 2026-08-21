@@ -98,7 +98,7 @@ The exact columns and relationships will be designed before implementation.
 - [x] Create .gitignore
 - [x] Define MVP
 - [ ] Design database
-- [ ] Set up local development environment
+- [x] Set up local development environment
 
 ### Phase 2 — Authentication
 
