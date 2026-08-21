@@ -10,9 +10,15 @@ PeopleCreeper is an early-2000s-inspired social networking platform built from s
 
 Project Rebirth is my personal initiative to rebuild and strengthen my software development skills through practical projects.
 
-## Features
+## Core Features
 
-Coming soon.
+- **User Accounts**
+- **User Profiles**
+- **Friends**
+- **Posts**
+- **Home Feed**
+- **Post Management**
+- **Access Control**
 
 ## Technologies
 
