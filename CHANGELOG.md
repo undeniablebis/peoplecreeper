@@ -7,13 +7,23 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Initial PeopleCreeper project structure
-- Initial Project Documentation
-- Git repository and Github integration
-- Landing page
-- Style.css
+- Initial project documentation
+- Git repository and GitHub integration
+- User registration page
+- Database configuration
+- Reusable page layout functions
+- Login page structure
+
 
 ### Changed
 
+- Updated landing page with login form
+- Added registration link to landing page
+- Updated page layout to use reusable `page_start()` and `page_end()` functions
+
 ### Fixed
 
-### Removed
+- Fixed stylesheet path in page layout
+- Fixed registration redirect behavior
+
+### Removed~
