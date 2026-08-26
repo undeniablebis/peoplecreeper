@@ -15,15 +15,15 @@ page_start("Welcome to PeopleCreeper");
 <h1>Welcome to landing page!</h1>
 <div class="container">
     <div class="login">
-        <form action="">
-            <label for="">email</label><br>
-            <input type="email" placeholder="email" required><br>
-            <label for="">password</label><br>
-            <input type="password" name="" id="" placeholder="password"><br>
-            <button>login</button><br><br>
+        <form action="login.php" method="POST">
+            <label>email</label><br>
+            <input type="email" name="email" placeholder="email" required><br>
+            <label>password</label><br>
+            <input type="password" name="password" id="" placeholder="password"><br>
+            <button type="submit">login</button><br><br>
         </form>
-        <small>No account yet?</small>
-        <button>Register</button>
+        <span>No account yet? </span><a href="register.php">Register</a>
+        
 
     </div>
 

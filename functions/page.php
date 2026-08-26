@@ -19,5 +19,5 @@ function page_end(){
     </body>
     </html>
     <?php
-}?>
+}
 
