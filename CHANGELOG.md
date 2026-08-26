@@ -23,7 +23,4 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-- Fixed stylesheet path in page layout
-- Fixed registration redirect behavior
 
-### Removed~
