@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (isset($_SESSION['id'])){
+if (isset($_SESSION['user_id'])){
     header("Location: profile.php");
     exit();
 }
@@ -13,6 +13,7 @@ page_start("Welcome to PeopleCreeper");
 
 ?>
 <h1>Welcome to landing page!</h1>
+
 <div class="container">
     <div class="login">
         <form action="login.php" method="POST">

@@ -1,8 +1,45 @@
+/* GLOBAL */
+
+body {
+    margin: 0;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #1E3A5F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+
+/* LANDING PAGE */
+
+.container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
 .login {
     border: 2px dashed black !important;
     width: fit-content;
     padding: 20px;
-
 }
 
 .about {
@@ -11,8 +48,51 @@
     height: 500px;
 }
 
-.container {
+
+/* PROFILE */
+
+.profile-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.profile-header {
     display: flex;
-    gap: 30px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.profile-header img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px dashed black;
+}
+
+.profile-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
     align-items: flex-start;
+}
+
+.profile-content .profile-about {
+    width: 30%;
+    padding: 20px;
+    height: 500px;
+    border: 2px dashed black;
+    border: 1px solid #ddd;
+}
+
+.posts {
+    width: 70%;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
 }
